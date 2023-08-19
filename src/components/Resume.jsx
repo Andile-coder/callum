@@ -25,29 +25,40 @@ const Resume = () => {
 
   const experienceDetails = [
     {
-      yearRange: "November 2021 - Present",
-      title: " Student Success Advisor",
-      place: "2U, Lanham, MD",
-      desc: "	Efficiently manage user retention by scheduling, coordinating, and conducting phone and Zoom calls with 200 students in six week increments to continuously gauge users’ experience and satisfaction with university partner(s), degree programs, and learning management systems. Troubleshoot user issues and devise solutions in accordance with university policies, to reduce program abandonment rates and maintain system usability.",
-    },
-
-    {
-      yearRange: "July 2021 - April 2022",
-      title: "UX Design ",
-      place: "Vengage Consulting, Atlanta, GA	",
-      desc: "Collaborate with senior designers to reconfigure the user flow and visual design of an education mobile application, allowing users to access their courses 73% faster than before.Engage in all aspects of the user experience (UX) design process including conducting research and diving deep into the client’s industry and business challenges at the onset of projects.Present findings and recommendations after evaluating user interfaces and administering audits of websites and mobile apps for usability issues.",
+      yearRange: "2021-2023",
+      title: "DIGITAL INNOVATION",
+      place: "AWS EXPERIENCE DESIGN ARCHITECT ",
+      desc: "",
     },
     {
-      yearRange: "November 2021",
-      title: " UX Designer | Remote",
-      place: "Upilio",
-      desc: "Designed an intuitive user interface and information architectural system that worked to reduce user task completion time by 68% when onboarding and utilizing in-app features like the foods list and meal plan.Executed the end-to-end double diamond process to redesign and create high fidelity clickable prototypes, including conducting user research, crafting personas, creating sketches, wireframes, and prototypes, and conducting usability tests.Participated in an agile UX process to develop and implement data-driven design decisions and efficiently hand-off prototypes and design systems to developers.",
+      yearRange: "2021",
+      title: "LEAD UX DESIGNER",
+      place: "DELOITTE ",
+      desc: "",
     },
     {
-      yearRange: " August 2019 - November 2021",
-      title: " Elementary Certified Teacher ",
-      place: "Baltimore City Public Schools, Baltimore, MD",
-      desc: "Designed and implemented curriculum based, multi-sensory lesson plans for various users to accommodate varying user needs and learning styles. Created and carried out a behavior modification system based on a variety of target personas, increasing behavior scores by an average of 47%  week over week. Increased 44% of student reading levels by 1 to 1.5 grade levels by Identifying user’s individual and collective learning needs and also planning, preparing and delivering instruction designed to increase user engagement and maximize individual learning. Developed and executed a five-week curriculum grounded in user research to engage and teach students that have previously failed core content courses, resulting in an 87% pass rate.",
+      yearRange: "2020 - 2021",
+      title: "  SENIOR UX & SERVICE DESIGNER  ",
+      place: "FADV",
+      desc: "",
+    },
+    {
+      yearRange: "2019 - 2020",
+      title: " ENIOR DESIGN STRATEGIST  ",
+      place: "FANNIE MAE",
+      desc: "",
+    },
+    {
+      yearRange: "2017 - 2019",
+      title: "  SENIOR UX DESIGNER",
+      place: "HOME DEPOT",
+      desc: "",
+    },
+    {
+      yearRange: "2016 - 2017",
+      title: " SENIOR UX DESIGNER ",
+      place: "CAPITAL ONE",
+      desc: "",
     },
   ];
 
