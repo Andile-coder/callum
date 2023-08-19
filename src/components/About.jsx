@@ -20,11 +20,13 @@ const AboutUs = () => {
               </span>
             </h2>
             <p className="text-5">
-              I am a UX Designer with a focus on ethical, user-centered design.
-              As a former classroom teacher, I plan to bring my knowledge of
-              psychology and design to help businesses differentiate themselves,
-              streamline their processes, and increase user retention. Scroll a
-              little further to see some of my work!
+              I am a service and experience designer with over 10 years of
+              experience. I focus on incorporating innovative design techniques
+              to human centered design concepts. With over 10 years of
+              experience in user experience design consulting and service design
+              across various industries, I am passionate about creating
+              intuitive user experiences that leverage emerging technology and
+              service design methodologies to solve complex business problems.
             </p>
           </div>
           <div
@@ -34,7 +36,7 @@ const AboutUs = () => {
             <div className="featured-box style-4">
               <div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
                 <span className="wow heartBeat" data-wow-delay="1.3s">
-                  4
+                  10
                 </span>
               </div>
               <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
@@ -46,13 +48,13 @@ const AboutUs = () => {
         <div className="row gy-3 mt-4">
           <div className="col-6 col-lg-3 wow fadeInUp">
             <p className="text-muted fw-500 mb-0">Name:</p>
-            <p className="text-4 text-dark fw-600 mb-0">Terricka Parker</p>
+            <p className="text-4 text-dark fw-600 mb-0">Valerie Kristyne</p>
           </div>
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
             <p className="text-4 fw-600 mb-0">
               <a className="link-dark" href="mailto:terrickaaparker@gmail.com">
-                terrickaaparker@gmail.com
+                vmdavenport@gmail.com
               </a>
             </p>
           </div>
@@ -61,9 +63,9 @@ const AboutUs = () => {
             <p className="text-4 text-dark fw-600 mb-0">
               <a
                 className="link-dark"
-                href="https://www.linkedin.com/in/terrickaparker"
+                href="https://www.linkedin.com/in/hvd9866/"
               >
-                Terricka Parker
+                Valerie Kristyne
               </a>
             </p>
           </div>
