@@ -5,23 +5,47 @@ import Slider from "react-slick";
 const Testimonials = () => {
   const reviews = [
     {
-      name: "Kevin",
+      name: "Colleague",
       position: "UX Designer",
-      src: "images/testimonial/kevin.webp",
-      desc: "“Terricka's background in education makes her an excellent team player. Not only is she able to provide clear constructive criticism but is also eager to receive feedback to become a better UX designer. She is diligent and observant, and always keeping the user needs at the front of her design decisions. Terricka is quick learner and works great under pressure and tight deadlines.”",
+      src: "",
+      company: "AWS",
+      desc: "“ Valerie is a strong team member, demonstrating customer obsession as a superpower. Valerie proved very adept at advancing the customer engagement, diving deep into requirements and changes, and quickly course correcting when customer's requirements and goals drastically changed.”",
     },
 
     {
-      name: "Steph",
+      name: "Colleague",
       position: "UX Designer",
-      src: "images/testimonial/steph.webp",
-      desc: "“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.”",
+      src: "",
+      company: "AWS",
+      desc: "“I would love to see Valerie more confidently assert herself as a champion and voice for the voiceless. Valerie was an excellent Innovation Fund grantee, enacting amazing results through her work in Baltimore, and I can see a world where Valerie continues to thrive in situations that lean on her ability to lead and inspire others.”",
     },
     {
-      name: "Naguib Ihab",
+      name: "Colleague",
       position: "Development Team Lead at Upilio",
-      src: "images/testimonial/Nick_edited.webp",
-      desc: "We were lucky to work with Terricka during the UX Design GA course, Terricka was in charge of the UX Design and we were blown away by the beautify of the end product. Terricka was very open to feedback, and listened to all of our hopes with the app, and translated that into an amazing design.”",
+      src: "",
+      company: "AWS",
+      desc: "“ Valerie´s superpower is her design abilities. She is a gem when she finds her mojo. She not only amazed me but the customer was wow-ed on how she understood the customer interviews, pain points and solved for interactions that were the closest to seamless we could foresee, on a single iteration! She sees beyond customer words to really understand needs. ”",
+    },
+    {
+      name: "Colleague",
+      position: "Development Team Lead at Upilio",
+      src: "",
+      company: "AWS",
+      desc: "“Valerie is very focused on identifying new ways the customer could do things that provide a big benefit to them. For example, when working on the CHC Innovation project, she identified several areas to improve the caller and agent experience that the customer hadn't considered and would make a big improvement. ”",
+    },
+    {
+      name: "Colleague",
+      position: "Development Team Lead at Upilio",
+      src: "",
+      company: "AWS",
+      desc: "“ I had the opportunity to work with Valerie during prototyping sessions for Koch Industries. She demonstrated strong Ownership skills to take initiative of leading the meeting and thinking long term in her approach during the meetings. She also demonstrated Have Backbone Disagree and Commit skills to speak up and stand up to her ideas.  ”",
+    },
+    {
+      name: "Colleague",
+      position: "Development Team Lead at Upilio",
+      src: "",
+      company: "AWS",
+      desc: "“Valerie is very good at meeting the customer's needs with good instincts that fill in the gaps where there is little or no direction. She joined the Molex engagement in a red status with a new team, where her customer obsession and instincts helped us to turn the engagement around to green in less than three weeks..  ”",
     },
   ];
 
@@ -88,15 +112,15 @@ const Testimonials = () => {
                       <i className="fa fa-quote-start" />
                     </span>
                     <p className="text-5 text-white">{review.desc}</p>
-                    <img
+                    {/* <img
                       className="img-fluid d-inline-block w-auto rounded-circle shadow"
                       src={review.src}
                       alt={review.name}
-                    />{" "}
+                    />{" "} */}
                     <strong className="d-block text-3 fw-600 text-white">
                       {review.name}
                     </strong>{" "}
-                    <span className="text-light">{review.position}</span>{" "}
+                    <span className="text-light">{review.company}</span>{" "}
                   </div>
                 ))}
             </Slider>

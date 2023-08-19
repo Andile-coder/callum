@@ -68,7 +68,7 @@ const Contact = () => {
               Maryland , DC, Virginia, Georgia, Washington, USA
             </address>
             <h3 className="text-5 fw-600">Call:</h3>
-            <p className="text-4">(410) 302-7991</p>
+            <p className="text-4">+1 (240) 426-0594</p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
