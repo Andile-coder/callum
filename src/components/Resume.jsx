@@ -64,33 +64,29 @@ const Resume = () => {
 
   const skills = [
     {
-      name: "UX",
+      name: "Information Archtecture",
       percent: 80,
     },
     {
-      name: "UI",
-      percent: 95,
-    },
-    {
-      name: "UX Copywrite",
-      percent: 77,
-    },
-    {
-      name: "UX Research",
+      name: "User Interface Design",
       percent: 85,
     },
     {
-      name: "Product Strategy",
+      name: "User Research",
+      percent: 77,
+    },
+    {
+      name: "Service Design",
+      percent: 95,
+    },
+    {
+      name: "Conversational Design",
       percent: 82,
     },
 
     {
-      name: "Team Collaboration",
+      name: "Collaboration",
       percent: 90,
-    },
-    {
-      name: "Accessibility Reviews",
-      percent: 88,
     },
   ];
 

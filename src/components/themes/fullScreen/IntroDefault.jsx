@@ -48,12 +48,12 @@ const FullScreenDefaultIntro = () => {
             </Link>
           </div>
           <div className="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
-            <div className="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
+            <div className="bg-dark rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/ms_parker.jpeg"
-                title="I'm Ms Parker"
-                alt="I'm Ms Parker"
+                src="images/valerie_portrait.png"
+                title="I'm Valerie Kristyne"
+                alt="Valerie Kristyne"
               />
             </div>
           </div>
