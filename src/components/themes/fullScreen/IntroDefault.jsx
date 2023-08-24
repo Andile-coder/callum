@@ -16,7 +16,7 @@ const FullScreenDefaultIntro = () => {
             <h2 className="text-19 fw-600 text-uppercase mb-0 ms-n1">
               <Typewriter
                 options={{
-                  strings: ["A UX Designer", " A UI Designer", "an Educator"],
+                  strings: ["A UX Designer", " A UI Designer"],
                   autoStart: true,
                   loop: true,
                 }}

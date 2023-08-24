@@ -2,9 +2,10 @@ import React from "react";
 
 const Services = () => {
   // services details
+
   const services = [
     {
-      name: "UX copywrite",
+      name: "conversational design and collaboration",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
       icon: "fas fa-palette",
     },
@@ -19,7 +20,7 @@ const Services = () => {
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Strategy",
+      name: "Service Design",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
       icon: "fas fa-paint-brush",
     },
@@ -29,7 +30,7 @@ const Services = () => {
       icon: "fas fa-chart-area",
     },
     {
-      name: "Accessibility Audit",
+      name: "User Interface Design",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
       icon: "fas fa-bullhorn",
     },
