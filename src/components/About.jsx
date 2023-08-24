@@ -16,7 +16,7 @@ const AboutUs = () => {
             <h2 className="text-8 fw-400 mb-3">
               Hi, I'm{" "}
               <span className="fw-700 border-bottom border-3 border-primary">
-                Valerie Kristyne
+                Valerie Davenport
               </span>
             </h2>
             <p className="text-5">
@@ -48,7 +48,7 @@ const AboutUs = () => {
         <div className="row gy-3 mt-4">
           <div className="col-6 col-lg-3 wow fadeInUp">
             <p className="text-muted fw-500 mb-0">Name:</p>
-            <p className="text-4 text-dark fw-600 mb-0">Valerie Kristyne</p>
+            <p className="text-4 text-dark fw-600 mb-0">Valerie Davenport</p>
           </div>
           <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
@@ -65,7 +65,7 @@ const AboutUs = () => {
                 className="link-dark"
                 href="https://www.linkedin.com/in/hvd9866/"
               >
-                Valerie Kristyne
+                Valerie Davenport
               </a>
             </p>
           </div>

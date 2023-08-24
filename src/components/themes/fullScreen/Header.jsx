@@ -61,7 +61,7 @@ const FullScreenHeader = ({ textWhite }) => {
               alt="Callum"
             /> */}
             <h2 className="text-10 fw-700 text-dark text-center mt-60 wow">
-              VALERIE KRISTYNE
+              VALERIE DAVENPORT
             </h2>
           </Link>
           {/* Logo End */}

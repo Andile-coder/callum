@@ -126,7 +126,7 @@ function App() {
             <Resume></Resume>
             <Portfolio></Portfolio>
             <CallToAction></CallToAction>
-            {/* <FAQs></FAQs> */}
+            <FAQs></FAQs>
             <Testimonials></Testimonials>
             {/* <Contact></Contact> */}
           </div>

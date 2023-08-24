@@ -4,61 +4,51 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = () => {
   const educationDetails = [
     {
-      yearRange: "Jun 2021 - Dec 2021",
-      title: "UX Design Immersive",
-      place: "General Assembly | Remote",
-      desc: "Full-time immersive program in UX/UI design consisting of 480+ hours of study, practice, professional training, and mentorship. Executed end-to-end UX/UI design processes for six projects from the user research phase through UI design, prototyping, usability testing, iteration, and stakeholder presentation; worked fully remote with teams using Agile methodologies and iterative development.",
+      yearRange: "",
+      title:
+        "Master of Science in Information Architecture &amp; Interaction Design ",
+      place: "University of Baltimore,",
+      desc: "",
     },
+
     {
-      yearRange: "May 2021",
-      title: "Master of Science in Education",
-      place: "Johns Hopkins School of Education | Baltimore, MD	",
-      // desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
-    },
-    {
-      yearRange: "June 2019",
-      title: "IBachelor of Arts in Political Science",
-      place: "Williams College | Williamstown, MA",
-      desc: "Concentrations in International Relations, Africana Studies, and Justice and Law.",
+      yearRange: "",
+      title: "Bachelor of Science in Marketing",
+      place: "Coppin State University",
+      desc: "",
     },
   ];
 
   const experienceDetails = [
     {
-      yearRange: "2021-2023",
-      title: "DIGITAL INNOVATION",
-      place: "AWS EXPERIENCE DESIGN ARCHITECT ",
-      desc: "",
+      yearRange: "2021-PRESENT",
+      title: "Senior Innovation Service Design Experience Consultant",
+      place: "AWS Remote ",
+      desc: "Lead visual design of web, mobile, voice, and AR/VR applications. Created and deployed process flows, wireframes, and visual design mock-ups and effectively conceptualized and communicated detailed interaction behaviors. Collaborated with product teams to meet business requirements. Supervised product delivery, leadership during build phase, and translated learnings into commercial offerings. Facilitated the best development team for project and effectively communicated scope requirements. Designed customer- facing assets and mechanisms to facilitate customers’ understanding, Amazon innovates at scale and takes new products to market. Observed metrics to expose offering portfolio opportunities and developments for Innovation Advisory Practice by identifying sales and delivery trends.",
     },
     {
-      yearRange: "2021",
-      title: "LEAD UX DESIGNER",
-      place: "DELOITTE ",
-      desc: "",
+      yearRange: "2020-2021",
+      title: "Senior UX Designer | Research Lead | FTE,",
+      place: "First Advantage, Atlanta, GA",
+      desc: "Spearheaded and carried out research across all of FADV&#39;s business verticals in APAC, LATAM, and US. Established and maintained design principles, produced style guides, and enabled design system to develop brand identity of new application. Supervised key UX/UI processes, directing team partnerships, quickly reducing organizational barriers, and resolving challenges.",
     },
     {
-      yearRange: "2020 - 2021",
-      title: "  SENIOR UX & SERVICE DESIGNER  ",
-      place: "FADV",
-      desc: "",
+      yearRange: "2019-2020",
+      title: "Senior Design Strategist,",
+      place: "Fannie Mae, Washington DC",
+      desc: "This role involved leading and facilitating workshops and qualitative interviews with key stakeholders, synthesizing research data to create design principles, and collaborating with design strategists to deliver project milestones. Additionally, the role encompassed conducting usability testing and prioritizing features for consumer-facing products, ensuring optimal user experiences and alignment with business objectives. Championed customer-first design, tackling challenges with an experience-driven mindset and advocating for customer needs.",
     },
     {
       yearRange: "2019 - 2020",
-      title: " ENIOR DESIGN STRATEGIST  ",
-      place: "FANNIE MAE",
-      desc: "",
+      title: "Senior UX Designer &amp; Service Designer | Consultant ",
+      place: "Johnson &amp; Johnson, New Brunswick, NJ",
+      desc: " Oversaw discovery research in order to replace current learning management systems. Organized and conducted human-centered design and data synthesis workshops involving stakeholders, business analysts, and users. Developed user personas and scenarios in order to enhance functionality and usability for key audiences.",
     },
     {
       yearRange: "2017 - 2019",
-      title: "  SENIOR UX DESIGNER",
-      place: "HOME DEPOT",
-      desc: "",
-    },
-    {
-      yearRange: "2016 - 2017",
-      title: " SENIOR UX DESIGNER ",
-      place: "CAPITAL ONE",
-      desc: "",
+      title: " Senior UX Designer &amp; Researcher, ",
+      place: "Home Depot, Atlanta, Atlanta, GA",
+      desc: "Conducted various user research techniques, such as surveys, interviews, usability testing, and ethnographic studies. Analyzed user data to identify patterns, trends, and insights that inform design decisions. Developed user personas that accurately reflected needs, goals, and behaviors of target users.",
     },
   ];
 
