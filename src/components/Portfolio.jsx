@@ -14,8 +14,8 @@ const Portfolio = () => {
   const isRtl = htmlElement.getAttribute("dir") === "rtl";
 
   const filters = {
-    DETAILED: "Details",
-    MOCKUPS: "Mockups",
+    SERVICE_DESIGN: "Service Design",
+    PRODUCT_DESIGN: "Product Desgn",
     // YOUTUBE: "Youtube Videos",
     // VIMEO: "Vimeo Videos",
   };
@@ -28,7 +28,7 @@ const Portfolio = () => {
 
   const projectsData = [
     {
-      title: "Stay In | Dine Out",
+      title: "FANNIE MAE",
       type: types.DOCUMENT,
       document: {
         projectInfo:
@@ -51,17 +51,17 @@ const Portfolio = () => {
         ],
       },
 
-      thumbImage: "images/projects/stay_in_dine_out.webp",
+      thumbImage: "images/projects/project_featured_image.jpg",
 
-      categories: [filters.DETAILED],
+      categories: [filters.SERVICE_DESIGN],
     },
     {
-      title: "Local Color Flowers",
+      title: "FADV Service Design Project",
       type: types.DOCUMENT,
 
-      thumbImage: "images/projects/localColorFlowers.webp",
+      thumbImage: "images/projects/project_featured_image (1).jpg",
 
-      categories: [filters.DETAILED],
+      categories: [filters.PRODUCT_DESIGN],
       document: {
         projectInfo:
           "Website Redesign involving the creation of an end-to-end e-commerce experience.",
@@ -99,7 +99,7 @@ const Portfolio = () => {
     //   categories: [filters.VIMEO],
     // },
     {
-      title: " Upilio Mobile app redesign.",
+      title: " Change Health Care",
       type: types.IMAGE,
       document: {
         projectInfo:
@@ -110,9 +110,10 @@ const Portfolio = () => {
         industry: "Art & Design",
         date: "July 16, 2019",
       },
-      thumbImage: "images/projects/upilio.webp",
-      categories: [filters.MOCKUPS],
+      thumbImage: "images/projects/project_featured_image (2).jpg",
+      categories: [filters.SERVICE_DESIGN],
     },
+
     // {
     //   title: "Mockups Design 2",
     //   type: types.IMAGE,

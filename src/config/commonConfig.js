@@ -11,13 +11,11 @@ export const introBackgroundConfig = {
 };
 
 export const appliedConfig = {
-
   // apply theme from : FullScreenMenu | StandardMenu | BottomHeader
-  appliedTheme: themeConfig.FullScreenMenu,
+  appliedTheme: themeConfig.StandardMenu,
 
   // apply Intro from : default | image | video
-  appliedIntro: introBackgroundConfig.default,
-
+  appliedIntro: introBackgroundConfig.video,
 };
 
 export const scrollDuration = 1000;

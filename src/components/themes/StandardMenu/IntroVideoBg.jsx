@@ -1,5 +1,5 @@
 import React from "react";
-import videobg from "../../../videos/home.mp4";
+import videobg from "../../../videos/aws-summit.mp4";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
@@ -27,19 +27,23 @@ const StandardMenuVideoBgIntro = () => {
           <div className="container my-auto py-5 py-lg-0">
             <div className="row py-4">
               <div className="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0">
-                <h1 className="text-12 fw-300 mb-0 text-uppercase">
-                  Hi, I'm a Freelancer
-                </h1>
+                <h1 className="text-12 fw-300 mb-0 text-uppercase">Hi, I'm</h1>
                 <h2 className="text-21 fw-600 text-uppercase mb-0 ms-n1">
                   <Typewriter
                     options={{
-                      strings: ["Designer", "Developer", "Callum"],
+                      strings: [
+                        "A Design Strategist",
+                        "An Experience Designer",
+                        "An Innovator",
+                        "A Product Designer",
+                        "A UX Designer",
+                      ],
                       autoStart: true,
                       loop: true,
                     }}
                   />{" "}
                 </h2>
-                <p className="text-5">based in Los Angeles, USA.</p>
+                <p className="text-5">Based In The United States.</p>
                 <Link
                   className="btn btn-dark rounded-0 smooth-scroll mt-3"
                   smooth="easeInOutQuint"
@@ -67,7 +71,7 @@ const StandardMenuVideoBgIntro = () => {
                   {" "}
                   <img
                     className="img-fluid rounded-pill d-block"
-                    src="images/web-developer.jpg"
+                    src="images/valerie_pp.png"
                     title="I'm Callum"
                     alt="I'm David"
                   />

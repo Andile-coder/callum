@@ -84,16 +84,16 @@ const Resume = () => {
     <section id="resume" className="section">
       <div className="container">
         {/* Heading */}
-        <p className=" text-center mb-2 wow fadeInUp">
+        {/* <p className=" text-center mb-2 wow fadeInUp">
           <span className="bg-primary text-dark px-2">Resume</span>
-        </p>
-        <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
+        </p> */}
+        {/* <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
           A summary of My Resume
-        </h2>
+        </h2> */}
         {/* Heading end*/}
-        <div className="row g-5 mt-5">
+        <div className="row g-5 mt-0">
           {/* My Education */}
-          <div className="col-lg-6 wow fadeInUp">
+          {/* <div className="col-lg-6 wow fadeInUp">
             <h2 className="text-7 fw-600 mb-4 pb-2">My Education</h2>
             <div className="border-start border-2 border-primary ps-3">
               {educationDetails.length > 0 &&
@@ -108,9 +108,9 @@ const Resume = () => {
                   </div>
                 ))}
             </div>
-          </div>
+          </div> */}
           {/* My Experience */}
-          <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+          {/* <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
             <h2 className="text-7 fw-600 mb-4 pb-2">My Experience</h2>
             <div className="border-start border-2 border-primary ps-3">
               {experienceDetails.length > 0 &&
@@ -125,10 +125,10 @@ const Resume = () => {
                   </div>
                 ))}
             </div>
-          </div>
+          </div> */}
         </div>
         {/* My Skills */}
-        <h2 className="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
+        <h2 className="text-7 fw-600 mb-4 pb-2 mt-0 wow fadeInUp">My Skills</h2>
         <div className="row gx-5">
           {skills.length > 0 &&
             skills.map((skill, index) => (

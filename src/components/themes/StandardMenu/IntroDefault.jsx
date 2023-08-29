@@ -18,13 +18,19 @@ const StandardMenuDefaultIntro = () => {
             <h2 className="text-21 fw-600 text-uppercase mb-0 ms-n1">
               <Typewriter
                 options={{
-                  strings: ["Designer", "Developer", "Callum"],
+                  strings: [
+                    "Design Strategist",
+                    "Experience Designer",
+                    "Innovator",
+                    "Product Designer",
+                    "UX Designer",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
               />{" "}
             </h2>
-            <p className="text-5">based in Los Angeles, USA.</p>
+            <p className="text-5">Based In The United States.</p>
             <Link
               className="btn btn-dark rounded-0 smooth-scroll mt-3"
               smooth="easeInOutQuint"
@@ -51,9 +57,9 @@ const StandardMenuDefaultIntro = () => {
             <div className="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/web-developer.jpg"
-                title="I'm Callum"
-                alt="I'm Callum"
+                src="images/valerie_pp.png"
+                title="I'm Valerie"
+                alt="I'm Valerie"
               />
             </div>
           </div>

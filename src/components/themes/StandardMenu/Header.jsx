@@ -18,7 +18,11 @@ const StandardMenuHeader = () => {
               title="Callum"
               smooth="easeInOutQuint"
               duration={scrollDuration}
-              style={{ cursor: "pointer" }}
+              style={{
+                cursor: "pointer",
+                textDecoration: "none",
+                marginTop: "20px",
+              }}
               offset={-72}
               to="home"
               onClick={(e) => {
@@ -26,7 +30,9 @@ const StandardMenuHeader = () => {
                 setIsNavModalClose(true);
               }}
             >
-              <img src="images/logo.png" alt="Callum" />
+              <h2 className="text-10 fw-700 text-dark text-center mt-60 wow">
+                VALERIE
+              </h2>
             </Link>
             {/* Logo End */}
           </div>
@@ -171,7 +177,7 @@ const StandardMenuHeader = () => {
                     Client
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link "
                     smooth="easeInOutQuint"
@@ -187,7 +193,7 @@ const StandardMenuHeader = () => {
                   >
                     Contact
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
