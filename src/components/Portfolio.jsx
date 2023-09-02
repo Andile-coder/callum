@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Isotope from "isotope-layout";
+import { Link } from "react-scroll";
+import { scrollDuration } from "../config/commonConfig";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 const Portfolio = () => {
   // init one ref to store the future isotope object
@@ -32,23 +34,20 @@ const Portfolio = () => {
       type: types.DOCUMENT,
       document: {
         projectInfo:
-          "Conceptualized mobile application designed to enhance and expedite the food ordering and delivery process.",
-        client: "Individual Project",
+          "Service Design project for Reston Gateway Employee Workplace Needs",
+        client: "Fannie Mae",
         projectDetails:
-          "Since the early 2010's, food delivery apps have allowed customers to order and receive food from the comfort of their homes--without even having to speak to anyone. Stay In | Dine Out is a redesign of an food delivery service app. The Stay In | Dine Out app allows users to order from their favorite restaurants in a timely manner. The app is focused on improving two key issues: long ordering processes and the lack of communication between stakeholders.",
-        technologies: "Figma, Miro, Trello, Slack",
+          "Amid the challenges posed by Covid-19, the workplace strategy team identified a pressing need to transform the employee workplace experience at the Reston Gateway. The team aimed to understand and optimize the interaction of Northern Virginia employees with collaboration spaces, technology, tools, and wayfinding systems.<br/> How might we utilize the collective  expertise of the workplace strategy and CXD teams to transform the Reston Gateway employee workplace into a safer, more collaborative, and efficient environment, in light of the implications of Covid-19, without changing the building's structural design? Primary Objective: 1. To delve into the realities of Northern Virginia employees' daily experiences, understanding their use and perception of collaboration spaces, technology, tools, and wayfinding systems. The end goal is to cultivate an environment that fosters synergy, where these tools and spaces are not just functional, but also resonant with the user's needs. 2. To decipher the effects of Covid-19 on the dynamics within the Reston Gateway building, looking at changes in remote and onsite collaboration, shifts in neighborhood and residency models, and new safety and security demands. Our aim is to navigate this new norm in a way that not only safeguards our employees but also enhances their productivity.",
+
+        technologies: "Figma, Mural",
         industry: "UX/UI design",
-        date: "4-week design sprint (Aug. 2021)",
+        date: "3 Months June 2020",
         url: {
-          name: "www.example.com",
-          link: "https://www.example.com",
+          name: "www.invisionapp.com",
+          link: "https://projects.invisionapp.com/d/main?origin=v7#/console/19189167/451484530/preview?scrollOffset=0",
         },
 
-        sliderImages: [
-          "images/projects/iPhone 13 Mockup (1).webp",
-          "images/projects/iPhone 13 Mockup.webp",
-          "images/projects/iPhone 13 Mockup-2.webp",
-        ],
+        sliderImages: [],
       },
 
       thumbImage: "images/projects/project_featured_image.jpg",
@@ -257,6 +256,19 @@ const Portfolio = () => {
                   </div>
                 ))}
             </div>
+          </div>
+
+          <div className="container text-center py-5 wow fadeInUp">
+            <a
+              className="btn btn-primary rounded-0 smooth-scroll wow rubberBand"
+              data-wow-delay="1s"
+              smooth="easeInOutQuint"
+              duration={scrollDuration}
+              href="https://valerie.boxapps.org/Account/Login?ReturnUrl=%2F"
+              target="_blank"
+            >
+              See More
+            </a>{" "}
           </div>
         </div>
       </section>
