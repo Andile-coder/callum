@@ -157,7 +157,7 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                               URL:
                             </span>
                             <a
-                              href={projectDetails?.document?.url?.name}
+                              href={projectDetails?.document?.url?.link}
                               className="btn btn-primary shadow-none rounded-0 px-3 py-1"
                               target="_blank"
                               rel="noopener noreferrer"

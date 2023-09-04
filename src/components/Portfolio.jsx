@@ -75,6 +75,27 @@ const Portfolio = () => {
         ],
       },
     },
+    {
+      title: "Johnson $ Johnson",
+      type: types.IMAGE,
+
+      thumbImage: "images/projects/project_featured_image (3).jpg",
+
+      categories: [filters.PRODUCT_DESIGN],
+      document: {
+        projectInfo:
+          "Website Redesign involving the creation of an end-to-end e-commerce experience.",
+        projectDetails:
+          "Local Color Flowers, known as LoCo Flo hereafter--a Baltimore-based floral design business--opened in 2013. After renting a stand at a local farmers market, they saw the retail side of their business grow, with many of their new customers taking an interest in the owner's floral design classes.This project is a redesign of their website in a way that appeals to their target audience, displays all that they have to offer, and encourages users to complete their purchases.",
+        technologies: "Figma, Miro, Trello, Slack",
+        industry: "UX/UI design",
+        date: "4-week design sprint (Sep. 2021)",
+        sliderImages: [
+          "images/projects/before.png",
+          "images/projects/after.png",
+        ],
+      },
+    },
     // {
     //   title: "YouTube Video",
     //   type: types.VIDEO,
