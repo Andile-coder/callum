@@ -18,7 +18,7 @@ const Portfolio = () => {
   const filters = {
     SERVICE_DESIGN: "Service Design",
     PRODUCT_DESIGN: "Product Desgn",
-    // YOUTUBE: "Youtube Videos",
+    YOUTUBE: "Youtube Videos",
     // VIMEO: "Vimeo Videos",
   };
 
@@ -56,44 +56,58 @@ const Portfolio = () => {
     },
     {
       title: "FADV Service Design Project",
-      type: types.DOCUMENT,
+      type: types.IMAGE,
 
       thumbImage: "images/projects/project_featured_image (1).jpg",
 
       categories: [filters.PRODUCT_DESIGN],
-      document: {
-        projectInfo:
-          "Website Redesign involving the creation of an end-to-end e-commerce experience.",
-        projectDetails:
-          "Local Color Flowers, known as LoCo Flo hereafter--a Baltimore-based floral design business--opened in 2013. After renting a stand at a local farmers market, they saw the retail side of their business grow, with many of their new customers taking an interest in the owner's floral design classes.This project is a redesign of their website in a way that appeals to their target audience, displays all that they have to offer, and encourages users to complete their purchases.",
-        technologies: "Figma, Miro, Trello, Slack",
-        industry: "UX/UI design",
-        date: "4-week design sprint (Sep. 2021)",
-        sliderImages: [
-          "images/projects/before.png",
-          "images/projects/after.png",
-        ],
-      },
     },
     {
-      title: "Johnson $ Johnson",
-      type: types.IMAGE,
+      title: "Johnson & Johnson",
+      type: types.DOCUMENT,
 
       thumbImage: "images/projects/project_featured_image (3).jpg",
 
       categories: [filters.PRODUCT_DESIGN],
       document: {
-        projectInfo:
-          "Website Redesign involving the creation of an end-to-end e-commerce experience.",
-        projectDetails:
-          "Local Color Flowers, known as LoCo Flo hereafter--a Baltimore-based floral design business--opened in 2013. After renting a stand at a local farmers market, they saw the retail side of their business grow, with many of their new customers taking an interest in the owner's floral design classes.This project is a redesign of their website in a way that appeals to their target audience, displays all that they have to offer, and encourages users to complete their purchases.",
-        technologies: "Figma, Miro, Trello, Slack",
+        projectInfo: "Service Design Project for Johnson & Johnson ",
+        projectDetails: (
+          <span>
+            {" "}
+            I was hired as a UX Researcher & Service Design Consultant to
+            support & assist the User Experience & Service Design Manager with
+            conducting global enterprise research for Johnson's & Johnson's
+            Learning & Development Team & The Corporate Business Technology
+            (CBT) group. I was responsible for conducting & synthesizing remote
+            and in-person interviews across the US and other countries. My
+            responsibilities included the planning and execution of
+            collaborative workshops with stakeholders to help gain clarity
+            around business objectives and next steps as to prepare for a RFP
+            for a new Learning Experience Platform.
+            <br />
+            <br />
+            Key Responsibilities:
+            <br />
+            <br /> - Planned and executed co-creation collaborative workshops
+            with core team & stakeholders to share findings and to propose
+            solutions <br />- Recruitment of interview participants
+            <br /> - Facilitation of 23 interviews across the US, Europe & Asia
+            <br /> - Synthesized & documented interview data and research
+            findings
+            <br /> - Facilitated & co-facilitated collaborative workshops with
+            core-team and stakeholders to gain alignment and to identify &
+            clarify business objectives & goals
+          </span>
+        ),
+        client: "Johnson & Johnson",
+        technologies: "Figma, Power Point, Adobe Illustrator",
         industry: "UX/UI design",
-        date: "4-week design sprint (Sep. 2021)",
-        sliderImages: [
-          "images/projects/before.png",
-          "images/projects/after.png",
-        ],
+        url: {
+          name: "www.invisionapp.com",
+          link: "https://projects.invisionapp.com/share/JPVIXWUKZ67#/screens/445231157_J-J_-1--01",
+        },
+        date: "September 2020 - December 2020",
+        sliderImages: [],
       },
     },
     // {
@@ -118,27 +132,214 @@ const Portfolio = () => {
     //   thumbImage: "images/projects/project-4.jpg",
     //   categories: [filters.VIMEO],
     // },
+
     {
-      title: " Change Health Care",
-      type: types.IMAGE,
-      document: {
-        projectInfo:
-          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Ruby Clinton",
-        projectDetails: "",
-        technologies: "iOS, HTML5, CSS3, PHP, Java",
-        industry: "Art & Design",
-        date: "July 16, 2019",
+      title: "Change Health Care",
+      type: types.VIDEO,
+      video: {
+        vimeo: false,
+        id: "EoeFKLlXi-k",
       },
       thumbImage: "images/projects/project_featured_image (2).jpg",
-      categories: [filters.SERVICE_DESIGN],
+
+      categories: [filters.YOUTUBE],
+    },
+    {
+      title: "Westpoint",
+      type: types.DOCUMENT,
+
+      thumbImage: "images/projects/astro_1.jpg",
+
+      categories: [filters.PRODUCT_DESIGN],
+      document: {
+        projectInfo: "Information Architect ",
+        projectDetails: (
+          <span>
+            The Astro Chatbot is an exemplar of sophisticated design principles
+            meticulously applied to craft a user experience that’s intuitive,
+            engaging, and supremely functional. As the Senior Product Designer,
+            I led the design initiatives from concept to completion, ensuring
+            that Astro not only aligned with PwC’s vision but also seamlessly
+            catered to the unique needs of the executive user base.
+            <br />
+            <br />
+            Astro, is a state-of-the-art executive concierge designed to enhance
+            the productivity of busy professionals through voice and text
+            commands. Integrated with PwC's robust systems, Astro stands ready
+            to assist in orchestrating your day with efficiency and precision by
+            leveraging AI, Machine learning and alexa voice technology. <br />
+            Design Process:
+            <br />
+            <ol>
+              <li>
+                Understanding User Needs:
+                <br />
+                <ul>
+                  <li>
+                    Conducted comprehensive user research to understand the
+                    intricacies of executives' daily tasks and challenges.
+                  </li>
+                  <li>
+                    Developed user personas and journey maps to visualize and
+                    address the diverse needs of the target audience.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Conceptualization & Ideation:
+                <br />
+                <ul>
+                  <li>
+                    Engaged in brainstorming sessions and collaborative
+                    discussions to generate innovative solutions and ideas for
+                    Astro.
+                  </li>
+                  <li>
+                    Sketched initial design concepts and created wireframes to
+                    visualize the user interface and overall user experience.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Prototyping & Testing:
+                <br />
+                <ul>
+                  <li>
+                    Designed interactive prototypes to demonstrate Astro’s
+                    functionality and garner feedback from potential users and
+                    stakeholders.
+                  </li>
+                  <li>
+                    Conducted usability tests to ensure the interface is
+                    intuitive and user-friendly, making necessary adjustments
+                    based on the findings.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Key Features:
+                <br />
+                <ul>
+                  <li>
+                    Voice & Text Commands: Allows users to interact with Astro
+                    effortlessly through simple voice or text inputs.
+                  </li>
+                  <li>
+                    User-Centric Interface: Designed with the user in mind,
+                    Astro’s interface is intuitive, providing quick access to
+                    essential features and functionalities.
+                  </li>
+                  <li>
+                    System Integration: Seamlessly integrates with PwC’s
+                    existing infrastructure, allowing for real-time assistance
+                    and support for users.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <br />
+            Conclusion Astro Chatbot is a testament to a design process deeply
+            rooted in understanding user needs and employing a collaborative and
+            iterative approach to product development. Through careful planning,
+            testing, and refinement, Astro was brought to life as a tool that
+            significantly enhances the productivity of executives at PwC,
+            providing a user experience that is unmatched in its intuitiveness
+            and efficiency. This portfolio piece encapsulates the dedication and
+            skill set I bring to the table as a Product Designer, where user
+            needs and business objectives are harmoniously balanced to create
+            products that truly make an impact.
+          </span>
+        ),
+
+        client: "PWC",
+        technologies: "Figma, Power Point,Adobe Illustrator",
+        industry: "UX/UI design",
+        url: {
+          name: "",
+          link: "",
+        },
+        date: "",
+        sliderImages: ["images/projects/astro_2.jpg"],
+      },
+    },
+    {
+      title: "Westpoint",
+      type: types.DOCUMENT,
+
+      thumbImage: "images/projects/infor_arch.jpg",
+
+      categories: [filters.PRODUCT_DESIGN],
+      document: {
+        projectInfo: "Information Architect ",
+        projectDetails: (
+          <span>
+            I was hired to help with redesign of West Point Military Academy’s
+            <br />
+            website Key Responsibilities:
+            <br />
+            <br /> - Planned, created and launched a open and closed card sort
+            in optimal sort <br /> - Synthesized card sort results and
+            recommended new taxonomy and navigation based on the results of the
+            card sortRedesigned navigation and information architecture
+            Conducted user research and usability testing to validate the new
+            design
+          </span>
+        ),
+
+        client: "Westpoint",
+        technologies: "Optimal Sort,Adobe XD",
+        industry: "UX/UI design",
+        url: {
+          name: "www.westpoint.com",
+          link: "https://www.westpoint.edu/",
+        },
+        date: "",
+        sliderImages: [
+          "images/projects/westpoint_1.jpg",
+          "images/projects/westpoint_2.jpg",
+        ],
+      },
+    },
+    {
+      title: "Marvel",
+      type: types.DOCUMENT,
+
+      thumbImage: "images/projects/spiderman_1.jpg",
+
+      categories: [filters.PRODUCT_DESIGN],
+      document: {
+        projectInfo: "Personal Marvel Project ",
+        projectDetails: (
+          <span>
+            I re-imagined an app for marvel’s spider character for my nephew who
+            loves spider man. This app was designed to not only entertain but
+            also educate, with engaging quizzes and facts about the Marvel
+            spider verse, and it served as a delightful and constructive bonding
+            activity for our family. This project, highlights my skills in app
+            development, user experience design, and project conceptualization,
+            which I believe would be valuable in contributing to the development
+            and success of any project.
+          </span>
+        ),
+
+        client: "Personal",
+        technologies: "Figma, Adobe Illustrator",
+        industry: "UX/UI design",
+
+        date: "",
+        sliderImages: [
+          "images/projects/spiderman_2.jpg",
+          "images/projects/spiderman_3.jpg",
+          "images/projects/spiderman_4.jpg",
+        ],
+      },
     },
 
     // {
     //   title: "Mockups Design 2",
     //   type: types.IMAGE,
 
-    //   thumbImage: "images/projects/project-6.jpg",
+    //   thumbImage: "images/projects/project_featured_image (2).jpg",
 
     //   categories: [filters.MOCKUPS],
     // },
