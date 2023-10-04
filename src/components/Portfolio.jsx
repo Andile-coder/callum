@@ -145,7 +145,7 @@ const Portfolio = () => {
       categories: [filters.YOUTUBE],
     },
     {
-      title: "Westpoint",
+      title: "Astro Chatbot",
       type: types.DOCUMENT,
 
       thumbImage: "images/projects/astro_1.jpg",
@@ -325,7 +325,10 @@ const Portfolio = () => {
         client: "Personal",
         technologies: "Figma, Adobe Illustrator",
         industry: "UX/UI design",
-
+        url: {
+          name: "Marvel",
+          link: "https://www.figma.com/proto/HRM22sHV5RNrwMJVnQ8VaY/WelcomeToSpiderverse-Concept?node-id=645-55869&starting-point-node-id=645%3A55869&locale=en",
+        },
         date: "",
         sliderImages: [
           "images/projects/spiderman_2.jpg",
